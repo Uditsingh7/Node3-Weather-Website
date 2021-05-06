@@ -15,8 +15,7 @@ const foreCast = (lat, long, callback)=>{
                  
                 'It is '+ body.current.weather_descriptions[0] +
                 ', and temperature is ' + body.current.temperature + '°C out there. '+
-                'But it feels like ' + body.current.feelslike + '°C.'+
-                ' There are '+body.current.precip +'% chances of rain.' 
+                'But it feels like ' + body.current.feelslike + '°C.'
                 
             )
         }
